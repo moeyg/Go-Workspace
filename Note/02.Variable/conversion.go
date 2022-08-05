@@ -5,7 +5,7 @@ package main
 
 import "fmt"
 
-func conversion() {
+func conversion () {
 	var integer int = 10
 	var float float64 = 10.1
 	// fmt.Println(integer + float) // 계산 X
