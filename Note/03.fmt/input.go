@@ -4,7 +4,7 @@ package main
 
 import "fmt"
 
-func main () {
+func input () {
 
 	// Scan() : 표준 입력에서 값을 입력
 	fmt.Scan()
