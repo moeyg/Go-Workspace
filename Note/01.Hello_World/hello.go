@@ -12,7 +12,7 @@ import "fmt"
 
 // func = function : 함수 선언
 // main = Program Starting point
-func main () {
+func main() {
 	// fmt.Println = fmt package 안에 포함된 함수(Println)를 사용
 	// Println = ln(line, 문자열)을 출력하고 개행 -> 한 줄 출력
 	fmt.Println("Hello World")
