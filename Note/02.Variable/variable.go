@@ -4,7 +4,7 @@ package main
 
 import "fmt"
 
-func variable () {
+func variable() {
 	// var = variable, 변수 선언
 	// int = 변수 타입, 정수 타입
 	var num int = 10
