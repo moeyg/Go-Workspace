@@ -4,7 +4,7 @@ package main
 
 import "fmt"
 
-func input () {
+func input() {
 
 	// Scan() : 표준 입력에서 값을 입력
 	fmt.Scan()
@@ -13,5 +13,5 @@ func input () {
 	fmt.Scanln()
 
 	// Scanf() : 표준 입력에서 서식 형태로 값을 입력
-	fmt.Scanf()
+	// fmt.Scanf()
 }

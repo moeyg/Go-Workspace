@@ -4,7 +4,7 @@ package main
 
 import "fmt"
 
-func float () {
+func float() {
 	var pi float64 = 3141592.65359
 	
 	// %f : 소수점 6자리까지 표현

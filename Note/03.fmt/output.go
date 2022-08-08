@@ -5,7 +5,7 @@ package main
 // fmt(format) : 표준 입출력을 제공하는 Package
 import "fmt"
 
-func output () {
+func output() {
 	var message string = "Hello World"
 
 	// Print : 함수 입력값을 출력

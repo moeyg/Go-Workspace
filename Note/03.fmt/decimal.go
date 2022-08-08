@@ -4,7 +4,7 @@ package main
 
 import "fmt"
 
-func decimal () {
+func decimal() {
 	var integer int = 90
 
 	// 5칸을 오른쪽 정렬

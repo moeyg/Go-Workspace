@@ -4,7 +4,7 @@ package main
 
 import "fmt"
 
-func specialSymbols () {
+func specialSymbols() {
 	var integer int = 90
 
 	// \n : 줄바꿈
