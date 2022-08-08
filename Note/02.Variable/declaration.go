@@ -13,7 +13,7 @@ func declaration()  {
 	var initInt int
 	fmt.Println("initInt :", initInt) // 0
 	var initFloat float64
-	fmt.Println("initFloat :", initFloat) // 0
+	fmt.Println("initFloat :", initFloat) // 0.0
 	var initBool bool
 	fmt.Println("initBool :", initBool) // false
 	var initStr string
