@@ -25,7 +25,7 @@ package main
 
 import "fmt"
 
-func typeRange () {
+func typeRange() {
 	// 큰 타입에서 작은 타입으로 변환할 때 값이 삭제될 수 있다.
 	var integer16 = 3456
 	var integer8 = int8(integer16)

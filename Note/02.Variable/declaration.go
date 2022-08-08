@@ -4,7 +4,7 @@ package main
 
 import "fmt"
 
-func declaration ()  {
+func declaration()  {
 	// 일반적인 변수 선언
 	var integer int = 10
 	fmt.Println("integer :", integer) // 10
