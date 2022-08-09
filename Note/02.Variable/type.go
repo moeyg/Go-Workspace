@@ -28,6 +28,3 @@ package main
 // map
 
 // interface
-
-// rune = int32
-// byte = unit8
