@@ -4,7 +4,7 @@ package main
 
 import "fmt"
 
-func main() {
+func bitShift() {
 	num := 4
 	fmt.Printf("%d binary : %b\n", num, num) // 4 binary : 100
 
