@@ -7,7 +7,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func assignment() {
 	var x int
 	var y int
 
