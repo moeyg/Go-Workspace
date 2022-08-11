@@ -8,7 +8,7 @@ package main
 
 import "fmt"
 
-func main() {
+func bitShift() {
 	// Left Shift
 
 	var a int8 = 4
