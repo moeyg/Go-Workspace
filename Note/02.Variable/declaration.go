@@ -9,7 +9,7 @@ func declaration()  {
 	var integer int = 10
 	fmt.Println("integer :", integer) // 10
 
-	// 초깃값
+	// Zero Value
 	var initInt int
 	fmt.Println("initInt :", initInt) // 0
 	var initFloat float64
