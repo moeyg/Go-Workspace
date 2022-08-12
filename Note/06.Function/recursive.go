@@ -19,7 +19,8 @@ func PrintNum (n int) {
 	fmt.Println("Number : ", n)
 }
 
-func main() {
+// main 함수
+func recursive() {
 	PrintNum(3)
 }
 
