@@ -13,26 +13,35 @@ const (
 var id string
 var pw string
 
-func isValidUserData() bool {
-	if id == userID {
-		if pw == userPW {
-			fmt.Println("안녕하세요!")
-			return true
-		}
-		fmt.Println("비밀번호가 틀렸습니다.")
+func IsValid(boolean bool) {
+	if boolean == true {
+		fmt.Println("안녕하세요!")
+	}
+	if boolean == false {
+	fmt.Println("ID 또는 비밀번호가 일치하지 않습니다.")
+	}
+	return
+}
+
+func IsValidUserData() bool {
+	if id != userID {
 		return false
 	}
-	if id != userID {
-		fmt.Println("아이디가 일치하지 않습니다.")
+	if id == userID {
+		if pw == userPW {
+			return true
+		}
 	}
 	return false
 }
 
+// main 함수
 func main() {
 	fmt.Println("Please enter your ID :")
 	fmt.Scanln(&id)
 	fmt.Println("Please enter your PW :")
 	fmt.Scanln(&pw)
 	
-	isValidUserData()
+	var isValid bool = IsValidUserData()
+	IsValid(isValid)
 }
