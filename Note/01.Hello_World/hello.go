@@ -1,6 +1,6 @@
-// package = 코드를 묶는 단위, go 코드가 속한 package를 나타냄
+// package = 코드를 묶는 단위, go 코드가 속한 package를 나타낸다.
 // main = Program Starting point Package
-// package main = Program Starting point Package로 단 1개
+// package main = Program Starting point Package로 전체 파일 내에서 단 1개
 // package main = main 함수를 가지고 있는 package
 // golang은 package main 1개 + 여러 개의 package
 package main
