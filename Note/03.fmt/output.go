@@ -11,11 +11,12 @@ func output() {
 	// Print : 함수 입력값을 출력
 	fmt.Print("Print : ", message)
 
-	// Println : 함수 입력값을 출력하고 개행
+	// Println : 함수 입력값을 출력하고 개행(줄바꿈)
 	fmt.Println("Println : ", message)
 
 	// Printf : format에 맞도록 입력값을 출력
-	// formatter(서식문자) : %d(정수), %f(실수), %s(문자열), %v(데이터 타입에 맞춰 기본 형태로 출력), %T(테이터 타입)
+	// formatter(서식문자)
+	//  %d(정수), %f(실수), %s(문자열), %v(데이터 타입에 맞춰 기본 형태로 출력), %T(테이터 타입)
 	fmt.Printf("Printf : %s, %v", message, message)
 }
 
