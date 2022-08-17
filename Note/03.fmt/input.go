@@ -1,4 +1,5 @@
 // Standard Input Function (표준 입력 함수)
+// fmt.Scan()   fmt.Scanln()   fmt.Scanf()
 
 package main
 
