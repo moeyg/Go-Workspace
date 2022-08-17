@@ -19,11 +19,11 @@ package main
 
 // slice : 사이즈가 정해지지 않은 배열
 
-// structure
+// structure : 구조체
 
-// pointer
+// pointer : 포인터
 
-// func
+// func : 함수
 
 // map
 
