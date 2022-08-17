@@ -1,4 +1,7 @@
 // Float Output (실수 출력) : %f, %g
+// fmt.Printf("%f", float)
+// fmt.Printf("%g", float)
+// fmt.Printf("%v", float)
 
 package main
 
