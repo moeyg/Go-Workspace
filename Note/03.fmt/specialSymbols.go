@@ -7,7 +7,7 @@ import "fmt"
 func specialSymbols() {
 	var integer int = 90
 
-	// \n : 줄바꿈
+	// \n : 개행(줄바꿈)
 	fmt.Printf("\\n : %d\n", integer) // \n : 90
 
 	// \t : 탭
@@ -16,6 +16,6 @@ func specialSymbols() {
 	// \\ : \ 출력
 	fmt.Printf("\\\\ : \\%d\\\n", integer) // \\ : \90\
 
-	// \' \" : ', " 출력
+	// \' \" : ' 과 " 출력
 	fmt.Printf("\\\" : \"%d\"\n", integer) // \" : "90"
 }
