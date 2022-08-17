@@ -1,4 +1,5 @@
 // Decimal Output (정수 출력) : %d
+// fmt.Printf("%d", int)
 
 package main
 
