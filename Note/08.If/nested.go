@@ -36,7 +36,7 @@ func IsValidUserData() bool {
 }
 
 // main 함수
-func main() {
+func nested() {
 	fmt.Println("Please enter your ID :")
 	fmt.Scanln(&id)
 	fmt.Println("Please enter your PW :")
