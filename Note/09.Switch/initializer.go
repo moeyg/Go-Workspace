@@ -4,16 +4,17 @@ package main
 
 import "fmt"
 
-func isAge() (age int) {
+func IsAge() (age int) {
 	fmt.Println("How old are you? :")
 	fmt.Scanf("%d", &age)
 	return age
 }
 
-func main() {
+// main 함수
+func initializer() {
 	// switch 초기문; 비교값 { }
 	// 변수 age는 switch 내에서 사용하는 지역 변수 
-	switch age := isAge(); true {
+	switch age := IsAge(); true {
 		case age < 0 :
 			fmt.Println("Please enter your correct age")
 
