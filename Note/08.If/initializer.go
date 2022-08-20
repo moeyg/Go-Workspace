@@ -12,6 +12,7 @@ func UploadFile() (filename string, success bool) {
 
 // main 함수
 func initializer() {
+	// filename, success 는 if문 내에서만 사용 가능한 지역 변수
 	if filename, success := UploadFile(); success {
 		fmt.Println("Upload success", filename)
 	} else {
