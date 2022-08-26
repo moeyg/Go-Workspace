@@ -6,6 +6,7 @@ import "fmt"
 
 func declaration()  {
 	// 일반적인 변수 선언
+	// var 변수명 자료형 = 값
 	var integer int = 10
 	fmt.Println("integer :", integer) // 10
 
@@ -20,12 +21,14 @@ func declaration()  {
 	fmt.Println("initStr :", initStr) // "" (빈 문자열)
 
 	// 타입 지정 X : 값에 따라 타입이 지정된다.
+	// var 변수명 = 값
 	var str = "Hello World"
 	fmt.Println(str) // Hello World
 	var pi = 3.14
 	fmt.Println(pi) // 3.14
 
 	// 선언 대입문 := : 값에 따라 타입이 지정된다.
+	// 변수명 := 값
 	number := 90
 	fmt.Println(number) // 90
 	msg := "Hello Go"
